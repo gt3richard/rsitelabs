@@ -5,3 +5,5 @@ ENV POSTGRES_PASSWORD postgres
 ENV POSTGRES_DB data
 
 COPY setup.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 5432

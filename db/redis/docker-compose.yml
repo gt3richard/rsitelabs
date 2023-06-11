@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  api:
+  cache:
     build: .
     ports:
-      - '9000:9000'
+      - '6379:6379'
